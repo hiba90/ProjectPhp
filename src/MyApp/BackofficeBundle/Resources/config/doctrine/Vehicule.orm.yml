@@ -1,0 +1,18 @@
+MyApp\BackofficeBundle\Entity\Vehicule:
+    type: entity
+    table: null
+    id:
+        id:
+            type: integer
+            id: true
+            generator:
+                strategy: AUTO
+    fields:
+        matricule:
+            type: integer
+        marque:
+            type: string
+            length: 255
+        capacite:
+            type: integer
+    lifecycleCallbacks: {  }

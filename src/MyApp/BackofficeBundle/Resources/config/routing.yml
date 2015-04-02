@@ -1,0 +1,7 @@
+my_app_backoffice_vehicule:
+    resource: "@MyAppBackofficeBundle/Resources/config/routing/vehicule.yml"
+    prefix:   /vehicule
+
+my_app_backoffice_homepage:
+    path:     /hello/{name}
+    defaults: { _controller: MyAppBackofficeBundle:Default:index }
